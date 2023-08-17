@@ -99,7 +99,7 @@ def listar_contas(contas):
             Titular:\t{conta['usuario']['nome']}
         """
         print("=" * 100)
-        print(textwrap.dedent(linha))
+        print(textwrap.dedent(localizado))
 
 def main():
     saldo = 0
